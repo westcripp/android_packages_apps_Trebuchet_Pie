@@ -23,7 +23,7 @@
     </style>
     <style name="WidgetContainerTheme.Dark" parent="AppTheme.Dark">
         <item name="android:colorEdgeEffect">?android:attr/textColorSecondary</item>
-        <item name="android:colorPrimaryDark">#616161</item> <!-- Gray 700 -->
+        <item name="android:colorPrimaryDark">@*android:color/material_grey_900</item> <!-- Gray 700 -->
     </style>
 
 </resources>
