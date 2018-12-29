@@ -24,7 +24,7 @@
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowNoTitle">true</item>
-        <item name="android:colorEdgeEffect">#FF757575</item>
+        <item name="android:colorEdgeEffect">@*android:color/accent_material_light</item>
     </style>
 
     <style name="BaseLauncherThemeWithCustomAttrs" parent="@style/BaseLauncherTheme">
@@ -62,13 +62,13 @@
         <item name="android:textColorTertiary">#CCFFFFFF</item>
         <item name="android:textColorHint">#A0FFFFFF</item>
         <item name="android:colorControlHighlight">#A0FFFFFF</item>
-        <item name="android:colorPrimary">#FF212121</item>
-        <item name="allAppsScrimColor">#EA212121</item>
+        <item name="android:colorPrimary">@*android:color/material_grey_850</item>
+        <item name="allAppsScrimColor">@*android:color/material_grey_850</item>
         <item name="allAppsInterimScrimAlpha">102</item>
         <item name="allAppsNavBarScrimColor">#80000000</item>
-        <item name="popupColorPrimary">?android:attr/colorPrimary</item>
-        <item name="popupColorSecondary">#424242</item> <!-- Gray 800 -->
-        <item name="popupColorTertiary">#757575</item> <!-- Gray 600 -->
+        <item name="popupColorPrimary">@*android:color/material_grey_850</item>
+        <item name="popupColorSecondary">@*android:color/material_grey_850</item> <!-- Gray 800 -->
+        <item name="popupColorTertiary">@*android:color/material_grey_850</item> <!-- Gray 600 -->
         <item name="widgetsTheme">@style/WidgetContainerTheme.Dark</item>
         <item name="isMainColorDark">true</item>
     </style>
@@ -120,7 +120,7 @@
         <item name="android:alpha">0</item>
         <item name="android:elevation">3dp</item>
         <item name="android:saveEnabled">false</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@*android:color/material_grey_850</item>
         <item name="android:includeFontPadding">false</item>
         <item name="android:importantForAccessibility">no</item>
     </style>
@@ -184,8 +184,8 @@
         <item name="android:colorForeground">@color/all_apps_bg_hand_fill</item>
     </style>
     <style name="AllAppsEmptySearchBackground.Dark">
-        <item name="android:colorPrimary">#9AA0A6</item>
-        <item name="android:colorControlHighlight">#DFE1E5</item>
+        <item name="android:colorPrimary">@*android:color/material_grey_850</item>
+        <item name="android:colorControlHighlight">@*android:color/accent_material_light</item>
         <item name="android:colorForeground">@color/all_apps_bg_hand_fill_dark</item>
     </style>
 </resources>
